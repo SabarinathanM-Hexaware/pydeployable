@@ -6,7 +6,7 @@ name: ci-pythonComp
     paths:
       - '**/pythonComp/**'
 env:
-  DOCKER_BUILD_FILE_PATH: ./pythonComp/Dockerfile.build
+  DOCKER_BUILD_FILE_PATH: ./pythonComp/Dockerfile
   DOCKER_FILE_PATH: ./pythonComp/Dockerfile.publish
   DOCKER_BUILD_CONTEXT: pythonComp
   DOCKER_PUBLISH_CONTEXT: pythonComp
