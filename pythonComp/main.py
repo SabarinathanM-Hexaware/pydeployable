@@ -7,4 +7,4 @@ import uvicorn
 
 if __name__ == "__main__":
     Base.metadata.create_all(engine, checkfirst=True)
-    uvicorn.run(app, port=settings.PORT)
+    uvicorn.run(app, port=settings.PORT) 
