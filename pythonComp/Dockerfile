@@ -10,7 +10,7 @@ ENV PYTHONUNBUFFERED=1
 # initialize working directory
 WORKDIR /app
 # Install & use pipenv
-COPY Pipfile Pipfile.lock /app/
+COPY Pipfile /app/
 RUN apt-get update
 RUN apt-get install -y default-libmysqlclient-dev
 RUN apt-get install -y gcc
